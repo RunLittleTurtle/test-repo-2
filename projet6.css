@@ -1,0 +1,373 @@
+body {
+    background-color: #FFB74D;
+		
+    
+}
+/*Navbar*/
+#nav-text {
+    margin: 3%;
+    font-family: 'Lexend Peta', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #E65100;
+    font-size: 110%;
+}
+
+
+/* Main content*/
+.main-content {
+    margin: 3% 30%;
+    height: 32rem;
+    
+  
+}
+
+.ligne1 {
+    display: flex;
+    justify-content: space-around;
+    height: 33%;
+    
+}
+
+.ligne2 {
+    display: flex;
+    justify-content: space-around;
+    height: 33%;
+     
+    
+}
+
+.ligne3 {
+    display: flex;
+    justify-content: space-around;
+    height: 33%;
+    
+    
+}
+/*center box*/
+#center-box {
+    /*height: 8rem;
+    width: 13rem;*/
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    
+    width: 33%;
+    overflow: scroll;
+    
+
+}
+#center-scroll{
+    
+    
+}
+#scroll {
+    text-align: center;
+    margin: 0px;
+    color: #E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    padding; 1em;
+
+}
+
+#title {
+    font-family: 'Bungee Inline', cursive;
+    color: #536DFE;
+    text-align: center;
+    margin: 0px;
+    
+}
+#heure-et-date {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    
+}
+#bleu {
+    color: #536DFE;
+    font-family: 'Lexend Peta', sans-serif;
+}
+#nombre-et-bouton {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    
+}
+#bouton {
+    background-color:#E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    border-radius: 0.4rem;
+    
+}
+#bouton:hover {
+    background-color: #536DFE;
+    cursor: pointer;
+}
+#bouton:active {
+    background-color: #536DFE;
+}
+
+/* img*/
+img {
+   width: 33%;
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    z-index: 1;
+    object-fit:cover
+    
+}
+#oneleft {
+    border-top-left-radius: 6rem;
+}
+#oneright {
+    border-top-right-radius: 6rem;
+}
+#twoleft {
+    width: 33%; 
+    overflow: hidden;
+    background-size: contain;
+    margin: 1rem;
+}
+#tworight {
+    width: 33%; 
+    overflow: hidden; 
+    background-size: contain;
+    margin: 1rem;
+}
+#threeleft {
+    border-bottom-left-radius: 6rem;
+}
+#threeright {
+    border-bottom-right-radius: 6rem;
+}
+
+/* footer */
+#footer-text {
+    margin: 3%;
+    font-family: 'Lexend Peta', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #E65100;
+    font-size: 110%;
+}
+@media only screen and (min-width:1100px) {
+    #sidebar-left {
+        width: 10%;
+        height: 100%;
+        background-color: #FFA726;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #sidebar-right {
+        width: 10%;
+        height: 100%;
+        background-color: #FFA726;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+#scroll {
+    text-align: center;
+    margin: 0px;
+    color: #E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 11px;
+
+}
+
+#title {
+    font-family: 'Bungee Inline', cursive;
+    color: #536DFE;
+    text-align: center;
+    margin: 0px;
+    font-size: 32px;
+    
+}
+#heure-et-date {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    font-size: 17px;
+    
+}
+#bleu {
+    color: #536DFE;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+}
+#nombre-et-bouton {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    font-size: 17px;
+    
+}
+#bouton {
+    background-color:#E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    border-radius: 0.4rem;
+    font-size: 17px;
+    
+}
+#bouton:hover {
+    background-color: #536DFE;
+    cursor: pointer;
+}
+#bouton:active {
+    background-color: #536DFE;
+}
+
+@media only screen and (min-width: 2300px) {
+   
+    
+    
+    .main-content {
+        margin: 3% 30%;
+        height: 59rem;
+}
+#title {
+    font-family: 'Bungee Inline', cursive;
+    color: #536DFE;
+    text-align: center;
+    margin: 0px;
+    font-size: 69px; 
+}
+#nav-text {
+    margin: 3%;
+    font-family: 'Lexend Peta', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #E65100;
+    font-size: 170%;
+}
+#footer-text {
+    margin: 3%;
+    font-family: 'Lexend Peta', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #E65100;
+    font-size: 170%;
+}
+
+}
+@media only screen and (max-width: 500px){
+    .main-content {
+        margin: 10% 5%;
+        height: 22rem;
+}
+#scroll {
+    text-align: center;
+    margin: 0px;
+    color: #E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 11px;
+
+}
+
+#title {
+    font-family: 'Bungee Inline', cursive;
+    color: #536DFE;
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    
+}
+#heure-et-date {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    font-size: 8px;
+    
+}
+#bleu {
+    color: #536DFE;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 8px;
+}
+#nombre-et-bouton {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    font-size: 8px;
+    
+}
+#bouton {
+    background-color:#E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    border-radius: 0.4rem;
+    font-size: 8px;
+    
+}
+#bouton:hover {
+    background-color: #536DFE;
+    cursor: pointer;
+}
+#bouton:active {
+    background-color: #536DFE;
+}
+}
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 1000px){
+    
+    
+.main-content {
+        margin: 3% 5%;
+        height: 2rem;
+}
+#scroll {
+    text-align: center;
+    margin: 0px;
+    color: #E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 11px;
+
+}
+
+#title {
+    font-family: 'Bungee Inline', cursive;
+    color: #536DFE;
+    text-align: center;
+    margin: 0px;
+    
+}
+#heure-et-date {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    font-size: 11px;
+    
+}
+#bleu {
+    color: #536DFE;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 11px;
+}
+#nombre-et-bouton {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #E65100;
+    font-size: 11px;
+    
+}
+#bouton {
+    background-color:#E65100;
+    font-family: 'Lexend Peta', sans-serif;
+    border-radius: 0.4rem;
+    font-size: 11px;
+    
+}
+#bouton:hover {
+    background-color: #536DFE;
+    cursor: pointer;
+}
+#bouton:active {
+    background-color: #536DFE;
+}
+}
+
